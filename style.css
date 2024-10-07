@@ -73,6 +73,9 @@ body {
     line-height: var(--righteous-line-height);
     color: white;
 }
+@media (min-width: 370px) {
+    
+}
 .button-start {
     display: flex;
     gap: 4%;
@@ -215,9 +218,8 @@ body {
         font-size: 15px;
         line-height: 20px;
     }
-
     .circle {
-        width: 360.5px;
+        max-width: 360.5px;
         height: 313.27px;
         transform: translate(0%, 100%);
     }
